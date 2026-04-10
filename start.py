@@ -6,8 +6,8 @@ video2 = "/videos/video2.mp4"
 player = mpv.MPV(
     input_default_bindings=True,
     input_terminal=True,
-    # terminal=True,
-    vo="tct",
+    terminal=True,
+    # vo="tct",
 )
 
 player.pause = True
