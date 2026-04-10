@@ -1,0 +1,4 @@
+# run the video script
+if [ "$(tty)" = "/dev/tty1" ] ; then
+	python3 "$HOME/escaperoom-video/start.py"
+fi
